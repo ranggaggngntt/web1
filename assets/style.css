@@ -55,6 +55,17 @@ body {
     width: 960px;
 }
 
+.recent-article {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recent-article ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 #menu li {
     float: left;
     list-style: none;
