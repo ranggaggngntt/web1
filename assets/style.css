@@ -12,16 +12,21 @@
 }
 
 .container {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
-    padding-right: 50px;
-    padding-left: 50px;
-    background: burlywood;
 }
 
 .sidebar {
     width: 400px;
     height: 600px;
     background: red;
+    float: left;
+}
+
+.content {
+    width: 790px;
+    height: 600px;
+    padding-left: 10px;
+    background: blueviolet;
     float: right;
 }
