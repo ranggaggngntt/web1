@@ -1,17 +1,11 @@
 <?php
 
-function salam($waktu, $nama){
-    return "Selamat $waktu, $nama!";
+function perkalian($angka1, $angka2){
+    return $angka1 * $angka2;
 }
+
+$hasil = perkalian(20, 3);
+echo "Perkalian 20 x 3 adalah $hasil";
+echo "<br>";
+echo "Perkalian 9 x 2 adalah " . perkalian(9,2);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan Function</title>
-</head>
-<body>
-    <h1><?= salam("Pagi", "Rangga"); ?></h1>
-</body>
-</html>
