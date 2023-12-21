@@ -4,11 +4,13 @@ $birthYear = 2003;
 $birthMonth = 2;
 $birthDay = 13;
 
+$targetYear = 2030;
+
 // Create a timestamp for the birthdate using mktime()
-$birthTimestamp = mktime(0, 0, 0, $birthMonth, $birthDay, $birthYear);
+$targetTimestamp = mktime(0, 0, 0, $birthMonth, $birthDay, $targetYear);
 
 // Format the birthdate for display
-$birthdate = date('l, d F Y', $birthTimestamp);
+$targetBirthday = date('l, d F Y', $targetTimestamp);
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +22,8 @@ $birthdate = date('l, d F Y', $birthTimestamp);
 </head>
 <body>
     <h3>
-        Tanggal Lahir: <?= $birthdate; ?>
+    Ulang Tahun di Tahun 2030: <?= $targetBirthday; ?>
+
     </h3>
 </body>
 </html>
