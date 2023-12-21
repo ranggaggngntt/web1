@@ -1,7 +1,7 @@
 <?php
 
 $todayDate = "30 nov 2023";
-$returnDate = date('d-m-Y', strtotime('+100 day', strtotime($todayDate)));
+$returnDate = date('d-m-Y', strtotime('+1000 day', strtotime($todayDate)));
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +15,7 @@ $returnDate = date('d-m-Y', strtotime('+100 day', strtotime($todayDate)));
     <h3>
         Tanggal hari ini = <?= $todayDate; ?>
         <br>
-        Tanggal 100 Hari dari sekarang = <?= $returnDate; ?>
+        Tanggal 1000 Hari dari sekarang = <?= $returnDate; ?>
     </h3>
 </body>
 </html>
